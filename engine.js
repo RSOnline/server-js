@@ -118,6 +118,9 @@ function PlayerInvItemAdd(pl,itm)
 	pl.inventory.items[len] = itm;
 }
 
+// ИЗМЕНИЛ ФАЙЛ...
+function test() {}
+
 function PlayerToJson(pl)
 {
 	pl.socket = null;
